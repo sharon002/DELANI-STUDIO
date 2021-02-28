@@ -1,0 +1,152 @@
+.container-fluid {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Yatra One', 'cursive';
+}
+
+.welcome {
+    background-image: url(../assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 180px;
+    margin-bottom: 10vh;
+}
+
+.welcome p {
+    line-height: 1.5em;
+}
+
+.mouse-click {
+    padding-top: 7vh;
+}
+
+#about {
+    margin-bottom: 10vh;
+}
+
+.services {
+    background-image: url(../assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55vh;
+    padding-top: 14vh;
+    margin-bottom: 10vh;
+}
+
+.what-we-do {
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 10vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.what-we-do-row {
+    margin-top: 30px;
+}
+
+.design,
+.development,
+.management {
+    display: none;
+}
+
+.portfolio {
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 10vh;
+}
+
+.portfolio-images {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.portfolio img {
+    width: 22%;
+    margin: 0.5vw;
+}
+
+.work4,
+.work3,
+.work2,
+.work1,
+.work5,
+.work6,
+.work7,
+.work8 {
+    position: relative;
+    display: inline;
+    width: 100%;
+    margin: 0%;
+}
+
+.work4caption,
+.work3caption,
+.work2caption,
+.work1caption,
+.work5caption,
+.work6caption,
+.work7caption,
+.work8caption {
+    width: 85%;
+    height: 150px;
+    position: absolute;
+    top: 99%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 37px;
+    margin-top: -10px;
+    border: 5px solid white;
+    color: black;
+    font-size: 21px;
+    font-weight: 700;
+    background-color: rgba(224, 208, 208, 0.7);
+    display: none;
+}
+
+.contact {
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 15vh;
+    margin-bottom: 4vh;
+    color: white;
+}
+
+input {
+    display: inline;
+    width: 35%;
+    height: 37px;
+    border-width: 1px 1px 2px 1px;
+    border-color: white;
+    background: transparent;
+}
+
+textarea {
+    display: inline;
+    height: 300px;
+    width: 70%;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: white;
+    margin-top: 10px;
+    background: transparent;
+}
+
+::placeholder {
+    color: white;
+    font-weight: 700;
+}
+
+input[type=submit] {
+    border-width: 3px;
+    border-radius: 7px;
+    background-color: transparent;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
