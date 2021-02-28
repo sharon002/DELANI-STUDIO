@@ -1,4 +1,4 @@
-# # My ip
+# My ip
 A project done by Sharon Kemboi.
 
 # Authors
